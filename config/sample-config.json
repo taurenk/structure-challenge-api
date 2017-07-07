@@ -1,0 +1,7 @@
+{
+   "mongodb": {
+     "connectionString": "mongodb://"
+   },
+   "privateKey": "7LvDSm4XvjYOh9Y",
+   "algorithm": ""
+}
