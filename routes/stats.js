@@ -30,7 +30,7 @@ api.post('/', Auth.verifyToken, jsonParser, (req, res) => {
   if (req.decoded.id !== req.body.uid) {
     res.json({error: 'Invalid User.'});
   }
-
+  // TODO: some sort of validation would be great...
   Stats.uploadUserStats(req.body)
     .then((uploadedStat)=> {
       res.json({result: uploadedStat});

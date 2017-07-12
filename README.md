@@ -16,3 +16,4 @@ API for structure challenge React.js web app.
 | GET  | /v1/users/:userId | Retrieve user record | Y
 | POST | /v1/stats | Upload stats for a user | Y
 | GET  | /v1/stats/:userId | Retrieve stats for a user | Y
+| GET  | /v1/metrics/leaderboard | Leaderboard | Y
